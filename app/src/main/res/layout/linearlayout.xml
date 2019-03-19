@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/OneOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,One" />
+
+        <Button
+            android:id="@+id/OneTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One,Two" />
+
+        <Button
+            android:id="@+id/OneThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Three" />
+
+        <Button
+            android:id="@+id/OneFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Tour" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/TwoOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,One"/>
+        <Button
+            android:id="@+id/TwoTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Two,Two"/>
+        <Button
+            android:id="@+id/TwoThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,Three"/>
+        <Button
+            android:id="@+id/TwoOneFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,Tour"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ThreeOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,One" />
+
+        <Button
+            android:id="@+id/ThreeTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Three,Two" />
+
+        <Button
+            android:id="@+id/ThreeThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,Three" />
+
+        <Button
+            android:id="@+id/ThreeFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,Tour" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/FourOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four,One" />
+
+        <Button
+            android:id="@+id/FourTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Four,Two" />
+
+        <Button
+            android:id="@+id/FourThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four,Three" />
+
+        <Button
+            android:id="@+id/FourFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four,Tour" />
+    </LinearLayout>
+</LinearLayout>
