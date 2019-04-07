@@ -9,7 +9,7 @@
 
 <img src="img/ex1_1.png" alt="ex1" align=center />  
 
-## 二、简介与截图
+## 实验二_布局
 
 ### 1、布局实验之LinearLayout
 
